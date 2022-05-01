@@ -7,7 +7,7 @@ namespace AspNetCore.Controllers
         
         public IActionResult Index()       
         {
-            return Content("Sono la Index del Courses Controller");
+            return View(); //Content("Sono la Index del Courses Controller");
         }
 
         public IActionResult Detail(string id)       
