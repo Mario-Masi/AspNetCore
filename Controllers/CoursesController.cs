@@ -12,7 +12,7 @@ namespace AspNetCore.Controllers
 
         public IActionResult Detail(string id)       
         {
-            return Content($"Sono la Detail, ho ricevuto l'id {id}");
+            return View(); // Content($"Sono la Detail, ho ricevuto l'id {id}");
         }
     }
 }

@@ -6,7 +6,7 @@ namespace AspNetCore.Controllers
     {
         public IActionResult Index()       
         {
-            return Content("Sono la Index dell'Home Controller");
+            return View(); // Content("Sono la Index dell'Home Controller");
         }
     }
 }
