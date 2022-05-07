@@ -6,6 +6,8 @@ namespace AspNetCore.Controllers
     {
         public IActionResult Index()       
         {
+           
+            //return Content("Watch dog");
             return View(); // Content("Sono la Index dell'Home Controller");
         }
     }

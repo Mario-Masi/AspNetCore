@@ -19,6 +19,9 @@ public class Program
             app.UseDeveloperExceptionPage();
         }        
 
+       // string filepath = Path.Combine(Environment.ContentRootPath, "bin/fileuplosdtxt");
+       // File.WriteAllText(filepath, DateTime.Now.ToString());
+
         app.UseStaticFiles();
         
         //app.UseMvc(routebuilder => {
